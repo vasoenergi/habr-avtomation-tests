@@ -1,0 +1,6 @@
+/.idea/*
+/target/*
+/drivers/*
+/test-output/*
+/habr-automation-test.iml
+/git
