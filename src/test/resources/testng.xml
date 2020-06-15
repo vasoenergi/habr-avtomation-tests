@@ -5,6 +5,7 @@
         <parameter name="browser" value="${browser}"/>
         <classes>
             <class name="testsuite.LogInTest"></class>
+            <class name="testsuite.TmPanelTest"></class>
         </classes>
     </test>
 </suite>
