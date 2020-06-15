@@ -1,6 +1,6 @@
-package testing;
+package testsuite;
 
-import inputs.TestBase;
+import baseparameters.TestBase;
 import org.testng.annotations.Test;
 import pages.LogInPageLocators;
 
@@ -11,8 +11,8 @@ public class LogInTest extends TestBase {
 
     @Test (priority = 1,groups = "test_group")
     public void logInTest() {
-        elementsHelper.textInputField(logInPageLocators.inputUserName,15,username);
-        elementsHelper.textInputField(logInPageLocators.inputPassword,15,password);
-        elementsHelper.clickOnVisibleAndClickableElement(logInPageLocators.loginButton,15);
+        elementsHelper.textInputField(logInPageLocators.inputUserName,5,username);
+        elementsHelper.textInputField(logInPageLocators.inputPassword,5,password);
+        elementsHelper.clickOnVisibleAndClickableElement(logInPageLocators.loginButton,5);
     }
 }

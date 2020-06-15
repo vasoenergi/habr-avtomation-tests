@@ -1,4 +1,4 @@
-package inputs;
+package baseparameters;
 
 public enum Browsers {
     CHROME,
