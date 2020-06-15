@@ -15,6 +15,6 @@ public class TmPanelTest extends TestBase {
         elementsHelper.clickOnVisibleAndClickableElement(panelLocators.design,10);
         elementsHelper.clickOnVisibleAndClickableElement(panelLocators.management,10);
         elementsHelper.clickOnVisibleAndClickableElement(panelLocators.marketing,10);
-        elementsHelper.clickOnVisibleAndClickableElement(panelLocators.nauchpop,10);
+        elementsHelper.clickOnVisibleAndClickableElement(panelLocators.popsci,10);
     }
 }
