@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="habr-automation-tests">
+    <test name="Test">
+        <parameter name="browser" value="${browser}"/>
+        <classes>
+            <class name="testing.LogInTest"></class>
+        </classes>
+    </test>
+</suite>
